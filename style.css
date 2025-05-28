@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #E5E7EB;
+}
+.part1,.footer{
+  background-color: #1F2937;
+  
+}
+.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 600;
+}
+
+.secondry,a,.items,.footer{
+  color: gray;
+  font-size: 18px;
+}
+.heading1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 20px;
+}
+button{
+  background-color: #3882F6;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  border-color: white;
+  border-radius: 8px ;
+}
+.part3{
+  background-color: #E5E7EB;
+  padding: 100px;
+
+}
+.quote{
+  color: rgb(65, 65, 65);
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+  margin: 50px 300px 50px 300px;
+}
+.by{
+  text-align: right;
+  margin-right: 300px;
+  font-weight: 900;
+}
+.part4{
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 100px 300px 100px 300px;
+  border-radius: 10px;
+  padding: 20px;
+}
+#leftCALL{
+  display: flex;
+  flex-direction: column;
+}
+#calltoaction{
+  font-size: large;
+  font-weight: 600;
+  margin: 0px;
+}
+.heading2{
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  
+}
+
+.secondry{
+  margin-bottom: 20px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px 0px 200px;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 20px;
+}
+
+.left-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+}
+.part1-5{
+  display: flex;
+  padding: 100px 200px 100px 200px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  
+}
+.heading2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px ;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+
+}
+.itemi{
+  width: 250px;
+  border: 2px solid #5b6876;
+  border-radius: 10px;
+  
+}
+.part2{
+  padding: 50px 100px 100px 100px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#jon{
+  width: 600px;
+}
